@@ -1,13 +1,13 @@
-001,65,1,25000,10
-002,75,1,65000,43
-003,80,1,9000,26
-005,35,0,80000,37
-004,25,0,8000,73
-006,65,0,80000,34
-007,50,1,45000,82
-008,85,0,5000,56%anciana mujer pobre no LP => NO
-009,22,1,95000,16%joven hombre rico no LP => NO
-0010,85,0,8000,56%anciano hombre rico no LP => NO
-0011,25,0,80000,19%
-0012,85,1,8000,56%hombres
-0013,25,1,80000,19
+001,65,1,25000,10%anciano casi pobre => SI
+002,75,1,65000,43%anciano rico => SI
+003,85,1,13000,26%anciano pobre => SI
+005,45,0,80000,37%edad media rica => SI
+004,25,0,8000,73%joven mujer pobre  => noooooo
+006,65,0,80000,34%anciana rica => SI
+007,50,1,45000,82%hombre mediana edad sueldo medio => SI
+008,85,0,5000,56%anciana pobre  => noooooo
+009,22,1,95000,16%joven rico  => SI
+0010,85,0,8000,56%anciana pobre => noooooo
+0011,25,0,80000,19%joven rica => noooooo
+0012,85,1,8000,56%anciano rico => SI
+0013,25,1,80000,19%joven rico => SI

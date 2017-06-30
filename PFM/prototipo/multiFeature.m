@@ -30,8 +30,7 @@ young = load('young.txt');
 elder = load('elder.txt');
 men = load('hombre.txt');
 women = load('mujer.txt');
-platence = load('platence.txt');
-data = [random([1:40],:);poor;rich;young;elder;men;women;platence];
+data = [random([1:40],:);poor;rich;young;elder;men;women];
 X = data(:, [2:5]); y = data(:, 6);
 
 %% ============ Part 2: Compute Cost and Gradient ============
@@ -98,7 +97,7 @@ XToPredict = newUsers(:,[2:5]);
 XToPredict = [ones(size(XToPredict,1), 1) XToPredict];
 prob = sigmoid(XToPredict * theta);
 disp('For new users we predict having pzo fijo probability of \n');
-disp([newUsers, prob]);
+disp(round([newUsers, prob*100, round(prob)]));
 
 % Compute accuracy on our training set
 p = predict(theta, X);
